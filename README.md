@@ -5,12 +5,6 @@
 </h1>
 <h6 align="center">Implementation of the AIAA Journal paper</h6>
 
-
-This repository contains a framework for **uncertainty prediction** of Reynolds-averaged Navier-Stokes flows around airfoils using **Denoising Diffusion Probabilistic Models (DDPM)**. It features code for generating a dataset evaluating the simulation uncertainty induced by simulation parameters, and training code for diffusion models, in addition to baselines using **Bayesian neural networks (BNNs)** and **heteroscedastic uncertainty models**.
-
-
-
-
 ## Paper Info
 
 <h4 align="center">Uncertainty-aware Surrogate Models for Airfoil Flow Simulations with Denoising Diffusion Probabilistic Models</h4>
