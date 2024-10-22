@@ -21,27 +21,6 @@ This repository contains a framework for **uncertainty prediction** of Reynolds-
 <h4 align="center">Uncertainty-aware Surrogate Models for Airfoil Flow Simulations with Denoising Diffusion Probabilistic Models</h4>
 <h6 align="center"><a href="mailto:qiang7.liu@tum.de">Qiang Liu</a> and <a href="mailto:nils.thuerey@tum.de">Nils Thuerey</a></h6>
 
-<h6 align="center">
-    <img src="assets/TUM.svg" width="16"> Technical University of Munich
-</h6>
-
-***Abstract:*** Leveraging neural networks as surrogate models for turbulence simulation is a topic of growing interest. At the same time, embodying the inherent uncertainty of simulations in the predictions of surrogate models remains very challenging. The present study makes a first attempt to use denoising diffusion probabilistic models (DDPMs) to train an uncertainty-aware surrogate model for turbulence simulations. Due to its prevalence, the simulation of flows around airfoils with various shapes, Reynolds numbers, and angles of attack is chosen as the learning objective. Our results show that DDPMs can successfully capture the whole distribution of solutions and, as a consequence, accurately estimate the uncertainty of the simulations. The performance of DDPMs is also compared with varying baselines in the form of Bayesian neura networks and heteroscedastic models. Experiments demonstrate that DDPMs outperformthe other methods regarding a variety of accuracy metrics. Besides, it offers the advantageof providing access to the complete distributions of uncertainties rather than providing a set of parameters. As such, it can yield realistic and detailed samples from the distribution of solutions. We also evaluate an emerging generative modeling variant, flow matching, in comparison to regular diffusion models. The results demonstrate that flow matching addresses the problem of slow sampling speed typically associated with diffusion models. As such, it offers a promising new paradigm for uncertainty quantification with generative models.
-
-***Read from:*** [[AIAA Journal](https://arc.aiaa.org/doi/10.2514/1.J063440) ] • [[Arxiv](https://arxiv.org/abs/2312.05320)]
-
-***Cite as:*** 
-
-```latex
-@article{Liu2024DDPM,
-author = {Liu, Qiang and Thuerey, Nils},
-title = {Uncertainty-Aware Surrogate Models for Airfoil Flow Simulations with Denoising Diffusion Probabilistic Models},
-journal = {AIAA Journal},
-doi = {10.2514/1.J063440},
-volume = {62},
-issue = {8},
-pages = {2192-2933}
-}
-```
 
 
 
@@ -75,7 +54,7 @@ Please let us know if you find anything doesn't work in the repository.
 
 ## Additional information
 
-Our work focuses on the probabilistic prediction of airfoil flows to evaluate the inherent uncertainty of flow simulation. For more research on deterministic prediction, please check out our previous work:
+This work focuses on the probabilistic prediction of airfoil flows to evaluate the inherent uncertainty of flow simulation. For more research on deterministic prediction, please check out our previous work:
 
 * [Deep-Flow-Prediction](https://github.com/thunil/Deep-Flow-Prediction): Airfoil flow predictions with UNet.
 
